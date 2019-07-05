@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Matthew Devonport </title>
+    <meta charset="UTF-8">
+    <link href="Styles/main.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/grid.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/normalize.css" rel="stylesheet" type="text/css" />
+     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet"> 
+  </head>
+  
+  <body>
+<header>     
+    <div class="row">
+        <h1 id="name-heading">Matthew Devonport</h1>
+        <img class="matty" src="img/Matty.jpg" alt="Matty D">
+      </div>
+      </header>
+    <div class="row">     
+       <h2 class="sub-heading">A man from the East Coast of New Zealand who has a passion for music is in his first steps of learning software development/computer coding.....<br>
+            <p><i>Follow His Journey</i></p>
+        </h2>
+      </div>
+        <section class="blog-enteries">
+      <h3 id="blog-heading">What are the best practices associated with using classes vs. ids?</h3>
+    <div class="row">
+    <p>To understand what the best practice is between 'classes' and 'ids' we need to first understand the differences between them.</p>
+    <h3 id="ID">ID's are unique</h3>
+    <li> Each element can have only one ID</li>
+    <li>Each page can have only one element with that ID</li>
+    <p>ID's are very similar to classes where you can name an element on your HTML file, although only used when you are looking to single out that particular element and style that element alone. The only other benefit is the "hash value" in the URL. If you have a URL like http://yourdomain.com#comments, the browser will attempt to locate the element with an ID of "comments" and will automatically scroll the page to show that element. It is important to note here that the browser will scroll whatever element it needs to in order to show that element, so if you did something special like a scrollable DIV area within your regular body, that div will be scrolled too. </p>
+   <p>This is an important reason right here why having ID's be absolutely unique is important. So your browser knows where to scroll!</p>
+        <div id="important">
+        <p><strong>IMPORTANT:</strong> Code that has the same ID on more than one element will not pass validation. </p>    
+        </div>
+    <h3 id="classes">Classes are NOT unique</h3>
+    <li> You can use the same class on multiple elements</li>
+    <li>You can use multiple calsses on the same element</li>
+    <p>Any styling information that needs to be applied to multiple objects on a page should be done with a class. Take for example a page with multiple "widgets":
+    </p>
+    <img src="img/class%20example%201.png">
+    <p>You can now use the class name "widget" as your hook to apply the same set of styling to each one of these. But what if you need one of them to be bigger than the other, but still share all the other attributes? Classes has you covered there, as you can apply more than one class:</p>
+    <img src="img/class%20example%202.png">
+    <p>No need to make a brand new class name here, just apply a new class right in the class attribute. These classes are space delimited and most browsers support any number of them (actually, it's more like thousands, but way more than you'll ever need).</p>
+    <p>With this in mind, there is nothing to stop you from having both! This is sometimes very useful as it allows an item to inherit common styling along with other elements of the same class as well as giving you precise control of that specific item. Another handy technique is to apply multiple classes to the same object.<br> Here is an example:</p>
+    <img class="example-image" src="img/difference%20example.png">
+    <div class="example-link">
+        <ul class="link"> <a href="ClassVsIDexample.html" target="_blank">Click here to see this example in your browser</a> </ul>  
+    </div>
+    <p>As you can see all 3 boxes share the same styles, although the "oddOneOut" is the only one floating to the right of the other two boxes. This is because we attached the ID to that box and assigned: "float: right" which means it is the ONLY element that will be floating to the right.</p>    
+        </div> 
+      </section>      
+      
+      <footer>
+            <div class="row">
+                <div class="col span-1-of-2">
+                  <ul class="footer-nav">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitch</a></li>
+                    <li><a href="#">YouTube</a></li>
+                    
+                   </ul>
+                </div>
+                <div class="col span-1-of-2">
+                    <ul class="footer-links">
+                        <li><a href="http://github.io/matthew-devonport/blog/index.html"><strong>INDEX</strong></a></li></ul>
+                </div>
+            </div>
+            <div class="row">
+             <p>
+                Copyright &copy; 2019 by Matthew Devonport. All rights reserved.
+             </p>
+            </div> 
+        </footer>
+    
+    <!-- this is a comment. -->
+  
+  </body>
+</html>
