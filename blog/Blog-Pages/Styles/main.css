@@ -72,8 +72,16 @@ h1 {
     float: right;
     display: block;
     margin-top: 10px;
-    border-radius: 100%;
     border: 1px solid #000000;
+}
+
+.learning-journal-photo {
+    height: 2500px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 a:link,
