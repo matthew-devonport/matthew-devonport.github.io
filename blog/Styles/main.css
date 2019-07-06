@@ -66,9 +66,17 @@ a:active {
 }
 
 
-#IDVSCLASS {
+.bigger-image {
     
     height: 70px;
+    width: auto;
+    padding-bottom: 5px;
+   
+}
+
+.smaller-image {
+    
+    height: 90px;
     width: auto;
     padding-bottom: 5px;
    
@@ -85,7 +93,8 @@ a:active {
     color: #fff;
     background-attachment: fixed;
     padding-bottom: 60px;
-    margin-left: -10px;    
+    margin-left: -10px;
+    font-size: 20px;
     
 }
 

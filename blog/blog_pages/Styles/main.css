@@ -23,6 +23,13 @@ h1 {
     font-size: 3em;
 }
 
+.row-heading {
+    color: rgba(255, 253, 208, 0.81);
+    text-align: center;
+    font-size: 30px;
+    
+}
+
 #blog-heading {
     text-align: center;
     font-size: 2em;
@@ -97,26 +104,35 @@ h1 {
 }
 
 .strengths {
-    height: 430px;
+    height: 410px;
     width:auto;
     float: left;
     display: block;
     margin-right: -80px;
-   
+    padding-left: 300px;
     padding-bottom:
     
 }
 
+.drums {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: auto;
+  margin-top: 30px;
+  border: 1px solid #000000;
+}
 .text-1 {
     text-align: center;
 }
 
 .list-1 {
-    margin-top: -20px;
+    margin-top: -30px;
     display: inline-block;
-    font-size: 22px;
-    margin-left: 320px;
-    padding-bottom: 20px;
+    font-size: 23px;
+    margin-left: 200px;
+    padding-bottom: 30px;
 }
 
 .learning-journal-photo {
