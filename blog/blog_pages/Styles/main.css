@@ -37,7 +37,19 @@ h1 {
     content: " ";
     width: 100px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 20px;
+}
+
+.divider:after {
+    display: block;
+    height: 2px;
+    background-color: #ffffff;
+    content: " ";
+    width: 500px;
+    margin: 0 auto;
+    margin-top: -10px;
+    padding-bottom: -10px;
+    
 }
 
 #important {
@@ -75,8 +87,40 @@ h1 {
     border: 1px solid #000000;
 }
 
+.dad {
+    height: 250px;
+    width:auto;
+    float: right;
+    display: block;
+    padding-left: 10px;
+    
+}
+
+.strengths {
+    height: 430px;
+    width:auto;
+    float: left;
+    display: block;
+    margin-right: -80px;
+   
+    padding-bottom:
+    
+}
+
+.text-1 {
+    text-align: center;
+}
+
+.list-1 {
+    margin-top: -20px;
+    display: inline-block;
+    font-size: 22px;
+    margin-left: 320px;
+    padding-bottom: 20px;
+}
+
 .learning-journal-photo {
-    height: 2500px;
+    height: 3500px;
     width: auto;
     display: block;
     margin-left: auto;
