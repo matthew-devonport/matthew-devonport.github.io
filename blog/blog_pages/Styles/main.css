@@ -144,6 +144,26 @@ h1 {
 .Pizza-Pics {
     height: 200px;
     width: auto;
+    float: right;
+    display: inline-block;
+    clear: both;
+    padding: 20px 10px
+    
+}
+
+.Pizza-Pics2 {
+    height: 200px;
+    width: 510px;
+    float: right;
+    display: inline-block;
+    clear: both;
+    padding: 20px 10px
+    
+}
+
+.Pizza-Pics3 {
+    height: 200px;
+    width: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -154,17 +174,29 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 10px;
+}
+
+.loop-examples2 {
+    float: right;
+    padding-left: 10px;
+    vertical-align: middle;
+    padding-top: 10px;
     
 }
 
 .Flow-Pic {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+    float: right;
 }
 
 .text-1 {
     text-align: center;
+}
+
+.allign-text {
+    margin-top: auto;
+    margin-bottom: auto;
+    vertical-align: middle;
 }
 
 .IQvsEQ {
@@ -198,7 +230,18 @@ h1 {
     text-align: center;
 }
 
+.sidebyside2 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 
+.sidebyside3 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
    
 }
 
