@@ -141,6 +141,28 @@ h1 {
     text-align: center;
 }
 
+.Pizza-Pics {
+    height: 200px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.loop-examples {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.Flow-Pic {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 .text-1 {
     text-align: center;
 }
@@ -155,6 +177,10 @@ h1 {
     font-size: 23px;
     margin-left: 200px;
     padding-bottom: 30px;   
+}
+
+.centre-text {
+    text-align: center;
 }
 
 .learning-journal-photo {
